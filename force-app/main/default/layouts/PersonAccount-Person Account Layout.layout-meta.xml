@@ -66,6 +66,10 @@
                 <behavior>Edit</behavior>
                 <field>Loyalty_Tier__pc</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Red_Account__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
