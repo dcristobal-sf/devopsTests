@@ -68,6 +68,10 @@
                 <behavior>Edit</behavior>
                 <field>Loyalty_Tier__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Buen_Cliente__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
