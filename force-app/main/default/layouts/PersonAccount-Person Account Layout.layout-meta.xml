@@ -70,6 +70,10 @@
                 <behavior>Edit</behavior>
                 <field>Red_Account__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Buen_Cliente__pc</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
