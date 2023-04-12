@@ -1,0 +1,65 @@
+{
+  "appPageId" : "b283a761-00d9-4281-abb4-4bea3be5356c",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "7aa31ff0-fa41-430f-a57e-9476e477d6cc",
+  "label" : "Individual Detail",
+  "regions" : [ {
+    "id" : "b4aec006-688c-4772-9538-0e625c5dfe9d",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "a8392d39-58e8-4706-9435-2313c1fa68cf",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "detailsTabLabel" : "Details",
+        "discussionsTabLabel" : "Feed",
+        "recordId" : "{!recordId}",
+        "relatedTabLabel" : "Related",
+        "tab1Type" : "details",
+        "tab2Type" : "related",
+        "tab3Type" : "chatter",
+        "tab4Type" : "none",
+        "timelineTabLabel" : "Activity"
+      },
+      "componentName" : "forceCommunity:recordHomeTabs",
+      "id" : "5df5e504-19ea-4aaa-be44-2accdb8dc995",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4ca3cf44-6df7-4acf-b3d5-f3455967e2d1",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "8fd00523-70c5-455c-b3ca-944771ddb08d",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "fbc64341-e8b4-4c56-be04-b9b4fcb5e1d5",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b81d5d2e-119d-49d3-a043-899498f34229",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-0PK"
+}
