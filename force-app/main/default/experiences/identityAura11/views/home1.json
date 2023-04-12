@@ -1,0 +1,70 @@
+{
+  "appPageId" : "b283a761-00d9-4281-abb4-4bea3be5356c",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "1c3723bc-f9d4-4ffc-8282-12f6db5563ef",
+  "label" : "home1",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "825248aa-d225-4d0c-a441-22a238930891",
+          "columns" : [ {
+            "UUID" : "adfa16f5-85a5-41b6-af63-a7b1eb7002cf",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "825248aa-d225-4d0c-a441-22a238930891",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>Spain's home page.</h1>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "af15cd49-fea2-4558-8643-3bbcc8055c1a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "adfa16f5-85a5-41b6-af63-a7b1eb7002cf",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8e3bd966-5f56-4b23-8666-fa806437dc9c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "58969656-09ff-4030-901f-722721d46bf1",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6c5b639c-4487-4381-ac52-207cfcccfb8f",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}
