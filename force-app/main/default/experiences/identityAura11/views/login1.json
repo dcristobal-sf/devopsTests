@@ -1,0 +1,93 @@
+{
+  "appPageId" : "47c901da-14da-485b-a7ff-b65dc19cb368",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "b5ce85e9-01b3-49b9-a57c-285fd2042b4d",
+  "label" : "login1",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "79135d0f-2e24-4e86-9782-105e6194f7d1",
+          "columns" : [ {
+            "UUID" : "f613bb37-14b9-4941-935c-6f28c711e330",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "79135d0f-2e24-4e86-9782-105e6194f7d1",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "salesforceIdentity:communityLogo2",
+          "id" : "74e43549-1eca-4966-aa9b-c253f9ecfb82",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p>This is the page for Spain's logins.</p>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "87834136-07ba-4377-9b65-c118f379da36",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "forgotPasswordLabel" : "Forgot your password?",
+            "forgotPasswordUrl" : "/ForgotPassword",
+            "loginButtonLabel" : "Log in",
+            "passwordLabel" : "Password",
+            "selfRegisterLabel" : "Not a member?",
+            "selfRegisterUrl" : "/SelfRegister",
+            "startUrl" : "",
+            "usernameLabel" : "Username"
+          },
+          "componentName" : "salesforceIdentity:loginForm2",
+          "id" : "d01cddc4-5f4f-4c01-ac49-26e2d085eb7f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f613bb37-14b9-4941-935c-6f28c711e330",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f9e266d6-08b6-41f3-adeb-00589a4651bc",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : ""
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "c8b629dc-922b-4e71-bc2d-df4863663bf1",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7000d4ff-ecb7-436f-9df0-3a957f5a55b4",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Login",
+  "type" : "view",
+  "viewType" : "login-home"
+}
